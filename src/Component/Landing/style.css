@@ -1,0 +1,239 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+body {
+  background-color: #f4f1ea !important ;
+
+}
+
+ul , ol {
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+/* Banner */
+
+.py-100{
+  padding: 100px 0;
+}
+
+.bg-img{
+  background-image: url('https://demo2.wpopal.com/fazfood/wp-content/uploads/2023/10/ct-bc.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.banner-content {
+  text-align: center;
+}
+
+.banner-content h1{
+  color: white;
+  font-size: 80px;
+  font-weight: 700;
+}
+.banner-content p {
+  color: white;
+  font-size: 18px;
+}
+.banner-content a{
+  color: white;
+  transition: all;
+}
+.banner-content a:hover{
+  color: green;
+}
+
+/* POPULAR DISHES */
+
+.popular-content{
+  text-align: center;
+}
+
+.popular-content h1{
+  font-size: 60px;
+  font-weight: 600;
+}
+
+body {
+     background-color: #F7F8F8;
+     min-height: 100vh;
+}
+ .main-content > div {
+     width: 70%;
+}
+ .main-content {
+     display: flex;
+     justify-content: center;
+     text-align: center;
+     padding-top: 50px;
+     padding-bottom: 50px;
+}
+ .uk-navbar-nav {
+     justify-content: center;
+     font-family: "Catamaran", sans-serif;
+     gap: 15px;
+     margin-bottom: 35px;
+}
+ .uk-navbar-nav > li {
+     padding: 0;
+     min-width: 100px;
+}
+ .uk-navbar-nav>li>a {
+     padding: 15px 35px;
+     display: block;
+     background-color: #fff;
+     color: #222;
+     font-size: 15px;
+     min-height: auto;
+     font-weight: 600;
+     box-shadow: 0 0 25px #cccccc42;
+     border-radius: 7px;
+     transition: 0.5s all ease-in-out;
+     text-transform: uppercase;
+}
+ .uk-navbar-nav>li>a:hover, .uk-navbar-nav>li.uk-active>a {
+     background-color: #b23920;
+     color: #fff;
+}
+ .img-gallery-container > li {
+     position: relative;
+     padding: 10px;
+     margin-top: 5px !important;
+}
+ .img-gal {
+     height: 415px;
+     width: 100%;
+     object-fit: cover;
+     transition: 0.5s all ease-in-out;
+     border-radius: 6px;
+}
+ .img-gallery-container > li:hover > img {
+     filter: brightness(0.4) blur(3px);
+}
+ .float-gallery-content {
+     position: absolute;
+     width: 90%;
+     z-index: -1;
+     background: #fff;
+     padding: 0;
+     margin: 0 auto;
+     left: 0;
+     right: 0;
+     bottom: 0;
+     border-radius: 5px;
+     display: flex;
+     justify-content: space-between;
+     opacity: 0;
+     visibility: hidden;
+     transition: 0.3s all ease-in-out;
+     overflow: hidden;
+}
+ .img-gallery-container > li:hover .float-gallery-content {
+     bottom: 20px;
+     opacity: 1;
+     visibility: visible;
+     z-index: 9;
+}
+ .uk-block {
+     display: block;
+}
+ .float-gallery-content .content {
+     padding: 8px 15px;
+}
+ .float-gallery-content .content > a {
+     color: #212121;
+     position: relative;
+     bottom: -50px;
+     opacity: 0;
+     transition: all 0.5s;
+}
+ .float-gallery-content .content > a:hover {
+     color: #7B68EE;
+}
+ button {
+     border: 0;
+     height: 100%;
+     padding: 5px 15px;
+     background: #7B68EE;
+     font-size: 30px;
+     color: #fff;
+     position: relative;
+     right: -100px;
+     opacity: 0;
+     transition: all 0.5s;
+}
+ .highlight {
+     color:#7B68EE;
+     font-weight: 600;
+     position: relative;
+     left: -100px;
+     opacity: 0;
+     transition: all 0.5s;
+}
+ .img-gallery-container > li:hover .highlight {
+     left: 0;
+     opacity: 1;
+     transition-delay: 0.1s;
+}
+ .img-gallery-container > li:hover button {
+     right: 0;
+     opacity: 1;
+     transition-delay: 0.1s;
+}
+ .img-gallery-container > li:hover .content > a {
+     bottom: 0;
+     opacity: 1;
+     transition-delay: 0.1s;
+}
+ @media screen and (max-width: 1100px) {
+     .img-gal {
+         height: 300px;
+    }
+}
+ @media screen and (max-width: 650px) {
+     .img-gal {
+         height: 225px;
+    }
+}
+ @media screen and (max-width: 480px) {
+     .img-gal {
+         height: 125px;
+    }
+}
+
+.menu-card{
+  width: 300px;
+  height: 400px;
+  margin-top: 100px;
+  background-color: white;
+  border-radius: 30px;
+}
+
+/* Footer */
+
+.footer{
+  background-color: #faf4ef;
+  margin-top: 100px;
+}
+
+.copyright-content p{
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.copyright-icon ul li{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 28px;
+    border: 1px solid;
+    border-radius: 100px;
+} 
